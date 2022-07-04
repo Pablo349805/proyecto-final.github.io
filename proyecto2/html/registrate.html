@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La casa de la abuela | REGISTRATE</title>
+    <link rel="stylesheet" href="/css/proy.css">
+    <meta name="descripcion" content="Pagina registrate de La Casa de la Abuela">
+    <meta name="keywords" content="lana,ropa,accesorios,merceria,casa,abuela,tejidos,registrate,envios,compra">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+    <div class="contenedor">
+    <header class="header">
+        <h1>REGISTRATE</h1>
+    </header>
+  
+    <nav class="nav">
+      <nav class="navbar navbar-expand-lg bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="/index.html">Menu</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="/html/home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/html/contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/html/catalogo.html">Catalogo</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled">Tu casa de confianza</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+</nav>
+    <img src="/css/imagenes/portada lana 4.jpg" alt="">
+    <section class="formulario">
+        <form action="" metod="" enctype="">
+            <div>
+                <label for="">Nombre</label>
+                <input type="text" id="nombre" placeholder="ingrese su nombre">
+            </div> 
+            <br>
+            <div>
+                <label for="">Apellido</label>
+                <input type="text" id="Apellido" placeholder="ingrese su apellido">
+            </div>
+            <br>
+            <div>
+                <label for="">Direccion</label>
+                <input type="text" id="Direccion" placeholder="ingrese su direccion">
+            </div>
+            <br>
+            <div>
+                <label for="">Email</label>
+                <input type="email" id="email" required>
+        </div> 
+        <br>
+        <div>
+            <textarea name="comentarios" id="comentarios" cols="30" rows="5">comentarios</textarea>
+        </div>
+        <br>
+        <div>
+            <label for="">¿te gustaria aprender a tejer?</label>
+                <input type="radio" name="curso" value="1"> si
+                <input type="radio" name="curso" value="2"> no
+        </div>
+        <br>
+        <div>
+            <label for="">Envio por:</label>
+                <input type="radio" name="Envio" value="1"> Correo argentino
+                <input type="radio" name="Envio" value="2"> Cargo
+                <input type="radio" name="Envio" value="3"> Otro
+        </div>
+        <br>
+        <div>
+            <select name="provincia" id="provincia">
+                <option value="1">Buenos Aires</option>
+                <option value="2">Cordoba</option>
+                <option value="3">Chubut</option>
+                <option value="1">Mendoza</option>
+                <option value="2">San Juan</option>
+                <option value="3">San Luis</option>
+                <option value="1">Tucuman</option>
+                <option value="2">Salta</option>
+                <option value="3">Corrientes</option>
+            </select>
+        
+        </div>
+        <br>
+            <input type="submit" id="enviar ahora">
+            <input type="reset" value="borrar todo">
+
+        </form>
+    </section>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+</body>
+</html>
